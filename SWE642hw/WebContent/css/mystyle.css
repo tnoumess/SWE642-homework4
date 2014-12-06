@@ -1,0 +1,138 @@
+
+em {   
+    font-weight:  bold;
+    font-size:16px;   
+    }
+       body{
+       
+                    
+                    background-color: #cccccc;
+                    background-repeat: no-repeat; 
+                    background-size: 1300px 1500px;    
+                    background-attachment: relative;     
+       
+
+            }
+
+#bg{
+         background-image: url(../image/fedora.jpg); 
+}
+p{ 
+   font-size:20px;
+    font-family: verdana, arial, sans-serif;
+}
+
+ @media handheld and (max-width: 480px), 
+   screen and (max-device-width: 480px),
+   screen and (max-width: 480px){
+p{ 
+   font-size:15px;
+    font-family: sans-serif;
+color:red;
+}
+
+body{
+       
+                    
+                    background-color: #cccccc;
+                    background-repeat: no-repeat; 
+                    background-size: 1300px 1100px;    
+                    background-attachment: relative;     
+       
+
+            }
+ .poslogo{
+          position: absolute;
+          bottom:100px;
+          right: 0px;
+            }
+            .sub{
+         color: blue;
+          
+            }
+
+#logo{    
+    height:15% ;
+    width:75%; 
+     }
+
+}
+
+     p.cent{
+     text-align:center;
+      }
+
+
+#logo{    
+    height:15% ;
+    width:75%; 
+     }
+          .poslogo{
+          position: absolute;
+          bottom:-450px;
+          right: 0px;
+            }
+
+.survey_wlc{    
+color:blue;
+ text-shadow: -4px 4px 0px black;
+
+     }
+
+          div
+            {
+               border: 1px solid navy;
+               margin-bottom: 3px;
+            }
+ #round
+   {
+    border: 3px solid navy;
+    padding: 20px 20px;
+    background:#CCEEFF;
+    width: 95%;
+    text-align: center;
+   
+            }
+
+
+#round2
+   {
+    border: 3px solid navy;
+    padding: 20px 20px;
+    background:#CCEEFF;
+    width: 95%;
+    text-align: center;
+   
+            }
+#round3
+   {
+    border: 3px solid navy;
+    padding: 20px 20px;
+    background:#CCEEFF;
+    width: 95%;
+    text-align: center;
+   
+            }
+#round4
+   {
+    border: 3px solid navy;
+    padding: 20px 20px;
+    background:#CCEEFF;
+    width: 95%;
+    text-align: center;
+   
+            }
+#round5
+   {
+    border: 3px solid navy;
+    padding: 20px 20px;
+    background:#CCEEFF;
+    width: 95%;
+    text-align: center;
+   
+            }
+            
+            .survey {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;

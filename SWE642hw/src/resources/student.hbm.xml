@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="model.Studentbean" table="studentbeans">
+      <meta attribute="class-description">
+         This class contains the student detail. 
+      </meta>
+      <id name="studentId" column="studentId" type="string">
+        </id>      
+      <property name="name" column="name" type="string"/>
+      <property name="address" column="address" type="string"/>
+      <property name="tel" column="tel" type="string"/>
+      <property name="data" column="data" type="string"/>
+      <property name="like" column="liked" type="string"/>
+      <property name="graduationMonth" column="graduationMonth" type="string"/>
+      <property name="year" column="year" type="string"/>
+      <property name="recommendation" column="recommendation" type="string"/>
+      <property name="city" column="city" type="string"/>
+      <property name="state" column="state" type="string"/>
+      <property name="zip" column="zip" type="string"/>
+      <property name="url" column="url" type="string"/>      
+      <property name="dates" column="dates" type="string"/>
+      <property name="comment" column="coments" type="string"/>
+      <property name="email" column="email" type="string"/>
+      <property name="how" column="how" type="string"/>
+      
+      
+   </class>
+</hibernate-mapping>
